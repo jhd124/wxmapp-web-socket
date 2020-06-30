@@ -14,7 +14,7 @@ yarn add wxmapp-web-socket
 ```
 import { WrappedWxSocket } from "wxmapp-web-socket";
 
-const url = "wss://somewhere.com"
-const websocket = new WrappedWxSocket(url)
+const url = "wss://somewhere.com";
+const websocket = new WrappedWxSocket(url);
 
 ```
