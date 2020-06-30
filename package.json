@@ -1,0 +1,19 @@
+{
+  "name": "wxmapp-web-socket",
+  "version": "1.0.0",
+  "description": "有时候我们开发了一个websocket应用，想把它移植到微信小程序上，或是想使用依赖于websocket的库，然而小程序API提供的socket接口不是标准的websocket接口，无法在上述场景内直接应用。这个库以小程序socket API为基础面实现了websocket的接口。\r ## 安装\r npm install --save wxmapp-web-socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhd124/wxmapp-web-socket.git"
+  },
+  "author": "hjing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhd124/wxmapp-web-socket/issues"
+  },
+  "homepage": "https://github.com/jhd124/wxmapp-web-socket#readme"
+}
