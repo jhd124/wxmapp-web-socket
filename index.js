@@ -29,8 +29,7 @@ export class WrappedWxSocket {
         this.socketTask.onError(error => {
             this.syncReadyState();
 
-            // hack: 标准websocket在连接失败的时候会先触发error再触发close，
-            // 但微信小程序则只会触发error，为了保证socket在出了问题后能及时重连，这里手动触发一次close
+             // 但微信小程序则只会触发error，为了保证socket在出了问题后能及时重连，这里手动触发一次close
             setTimeout(() => {
                 this.onCloseCallback();
             }, 0);
