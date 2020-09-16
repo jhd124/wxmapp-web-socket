@@ -12,9 +12,9 @@ yarn add wxmapp-web-socket
 ```
 ## 使用
 ```
-import { WrappedWxSocket } from "wxmapp-web-socket";
+import { WrappedWxSocket as WebSocket } from "wxmapp-web-socket";
 
 const url = "wss://somewhere.com";
-const websocket = new WrappedWxSocket(url);
+const websocket = new WebSocket(url);
 
 ```
